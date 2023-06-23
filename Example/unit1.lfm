@@ -1,0 +1,49 @@
+object Form1: TForm1
+  Left = 511
+  Height = 347
+  Top = 227
+  Width = 532
+  Caption = 'Get Network info'
+  ClientHeight = 347
+  ClientWidth = 532
+  LCLVersion = '2.2.4.0'
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 136
+    Caption = 'Simple: Get Addresses'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object memoStr: TMemo
+    Left = 8
+    Height = 299
+    Top = 40
+    Width = 516
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Font.Name = 'Courier'
+    ParentFont = False
+    ScrollBars = ssAutoBoth
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 449
+    Height = 25
+    Top = 8
+    Width = 75
+    Anchors = [akTop, akRight]
+    Caption = 'Exit'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 152
+    Height = 25
+    Top = 8
+    Width = 136
+    Caption = 'Complete: Get Addresses'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+end
